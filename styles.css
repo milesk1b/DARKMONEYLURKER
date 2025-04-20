@@ -1,0 +1,185 @@
+* {
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('images/7A20995C-9303-4121-A71F-E22834A6C963.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+header {
+    padding-top: 60px;
+    text-align: center;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    color: darkred;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-top: 40px;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 2.2rem;
+    color: darkred;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.soundcloud-text {
+    font-size: 1.2rem;
+    color: black;
+    text-align: center;
+    margin: 20px 0;
+}
+
+
+
+#nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px;
+    z-index: 1000;
+}
+
+#logo-container {
+    display: flex;
+    align-items: center;
+}
+
+#header-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: var(--text);
+    padding: 0 10px;
+    transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+    color: darkred;
+}
+
+.soundcloud-player {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    overflow: hidden;
+    width: 800px;
+}
+
+.product-img {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.product-img img {
+    width: 100%;
+    height: auto;
+}
+
+.inner-card {
+    padding: 15px;
+    text-align: center;
+}
+
+button.add {
+    background-color: darkred;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button.add:hover {
+    background-color: #b10000;
+}
+
+.image-container {
+    overflow-x: auto;
+    padding: 10px 0;
+    scroll-behavior: smooth;
+}
+
+.image-wrapper {
+    display: flex;
+    gap: 10px;
+}
+
+.image-wrapper img {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+#video {
+    max-width: 100%;
+    height: auto;
+}
